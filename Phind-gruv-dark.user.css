@@ -1,0 +1,540 @@
+/* ==UserStyle==
+@name           www.phind.com - Dec 2023
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.phind.com") {
+
+    
+     :root
+
+{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
+  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
+  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
+  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
+  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
+  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
+
+
+   
+}
+    
+    /* Front Page Styles    */
+ 
+    
+/*Top heading bar       */
+    .bg-body, .bg-white {
+    background-color: #1d2021!important;
+}
+    
+/*Werid serpeator line at bottom       */
+    
+    [data-theme=light] .separator {
+    background-color: #79740e!important;
+    height: 2px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*   Remove Phind image    */
+    
+    img, svg {
+        opacity :0 !important; 
+    vertical-align: middle;
+}
+    
+    
+/*  Color for all the buttons     */
+    
+  .btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .5rem 0 .5rem 0;
+    color: #ebdbb2 !important;;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: .75rem 1.75rem;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+} 
+    
+    
+/*     .btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .5rem 0 .5rem 0;
+    color: #98971a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: .75rem 1.75rem;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+} */
+    
+    
+/*      */
+    
+    
+    .form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    background-color: #cc241d !important;
+    border: 1px solid transparent;
+    border-radius: .5rem 0 .5rem 0;
+    box-shadow: 0 0;
+/*This is the input text           */
+    color: #ebdbb2 !important;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: .75rem 1.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%;
+}
+    
+/* Search bar background style      */
+    
+    .btn-group .btn {
+        background-color:#9d0006 !important;
+    box-shadow: none;
+}
+    
+    
+/*Border around the search bar       */
+/*Removed ugly gradient       */
+    .search-bar-input-group {
+    border-radius: 12px;
+    background: #9d0006 !important;
+    border: 4px solid transparent;
+}
+/*Suggestion Link button       */
+    
+.lift {
+    background-color:#ebdbb2 !important;
+    transition: box-shadow .25s ease,transform .25s ease;
+    
+}
+body:not([testing]) [data-selected="true"] {
+ background-color:#1d2021!important;
+    transition: all 0.15s ease 0s;
+}
+    
+
+    
+    
+/*Background styles??      */
+    .justify-content-center {
+        background-color:#1d2021 !important;
+    justify-content: center!important;
+}
+    
+    .m-0 {
+         background-color:#1d2021 !important;
+    margin: 0!important;
+}
+    
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+                background-color:#1d2021 !important;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--bs-gutter-x,16px);
+    padding-right: var(--bs-gutter-x,16px);
+    width: 100%;
+}
+    
+
+    
+    element.style {
+     background-color:#327085 !important;
+
+    margin: auto;
+    display: grid;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    height: 100vh;
+    grid-template-rows: 3.2fr auto 2fr 1fr;
+}
+    
+/*  Body setyles adn colors     */
+    body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: #fabd2f;
+    background-color: #1d2021 !important;
+    color: #b8bb26;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    margin: 0;
+    text-align: var(--bs-body-text-align);
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Seconday page styles      */
+    
+/*     .mt-3, .p-1{
+        background-color:white !important;
+    } */
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+            /* Second Page side column      */
+    
+/*Text under liks color in second main page       */
+    .col-lg-4 {
+        color:#ebdbb2 !important;
+        background-color :#1d2021 !important;
+    flex: 0 0 auto;
+    width: 33.33333%;
+}
+/*hover for the text  under links      */
+        .fs-6:hover{
+        color:#fb4934 !important;
+        background-color :#1d2021 !important;
+
+}
+    
+    
+/*Text sources and Answer wull be colored       */
+    
+   h6.text-uppercase {
+       color:#fb4934 !important;
+    font-family: DM Sans,sans-serif;
+    font-weight: 700;
+    letter-spacing: .18em;
+}
+  
+    
+/*Links in the second page color      */
+    
+a {
+    color: #fe8019 !important;
+}
+    
+        /* hover effect for links      */
+    a:hover {
+    color: #fb4934 !important;
+}
+    
+/*Links in the side bar       */
+    .text-gray-600 {
+    color: #8ec07c!important;
+}
+
+        .text-gray-600:hover{
+    color: #6cb3c6!important;
+}
+    
+    
+/*Color of the tag   */
+    .me-1 {
+        color:#ebdbb2 !important;
+        background-color:#16181a !important;
+    margin-right: .25rem!important;
+}
+    
+    
+/*Sources  and filer icons       */
+    .fe {
+        color :#6ec398 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Feather!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: inherit;
+    text-transform: none;
+}
+    
+        .fe:hover{
+        color :#fabd2f !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Feather!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: inherit;
+    text-transform: none;
+}
+    
+    
+   
+    
+
+    
+    
+/*Bold heading at the top       */
+    
+    .fw-bold {
+        color:#fe8019 !important;
+    font-weight: 500!important;
+        
+}
+    
+/* Bottom active links page      */
+    .page-item.active .page-link {
+    background-color: #282828;
+    border-color: #7c6f64;
+    color: #a4bb4a;
+    z-index: 3;
+}
+    
+/*  Bottom passive  linkother pages     */
+    .page-item:not(:first-child) .page-link {
+    margin-left: -1px;
+        color:#928374!important;
+background-color: #16181a;
+    border-color: #3c3836;
+}
+    
+    
+    
+    
+    /*  Actual content  of The page        */  
+    
+    .mb-2 {
+        color :#ebdbb2 !important;
+    margin-bottom: .5rem!important;
+}
+    
+    
+    strong {
+        color:#fe8019 !important;
+    font-weight: 500;
+}
+    li::marker 
+    {
+        color:#fe8019 !important;
+    }
+    
+    
+
+    
+   
+    
+    .mt-3, .p-1{
+        
+        background-color:#16181a !important;
+    }
+
+
+    
+    
+    
+    
+    
+                /*How to make sure the tings       */
+                    /*      */
+
+    
+    .lift {
+    background-color: #16181a !important;
+    transition: box-shadow .25s ease,transform .25s ease;
+}
+    
+/* Rewrite button sub menu     */
+    
+    .dropdown-menu {
+        background-color:#faedcd !important;
+    padding: 2rem;
+}
+/*  )gpt 4 answers left asnwer     */
+    .text-primary {
+    color: #79740e!important;
+}
+    
+    
+    .text-always-dark, [data-theme=dark] .text-always-dark {
+    color: #f57d26!important;
+}
+    
+   
+    
+    
+    
+/* Code styles      */
+    
+/*      macros */
+    .token.macro{
+        color:#b8bb26 !important;
+    }
+    
+    
+    
+/*  Incluses in C++     */
+    .token.macro.directive{
+                color:#fe8019 !important;
+
+    }
+    
+/*      hash*/
+     .token.macro.directive-hash{
+                color:#fe8019 !important;
+
+    }
+    
+.token.comment {
+    color: #6272a4;
+}
+    
+    
+    
+    
+    
+}
