@@ -423,29 +423,65 @@ background-color:#282828 !important;
 	
 	
 	/*Code styles */
+	/*Main upper code block */
 	div.mt-3{
-		color:black !important;
-		background-color:#16181a !important;
+		color:#1d2021 !important;
+		background-color:#1d2021 !important;
 	}
 	
-
-	
-#custom-bg {
-  background-color: rgb(211, 211, 211) !important;
-	background-color:black !important;
+/*code bliock that inside the bigger div */
+/*Div inside the .mt3 (this is hwo to select that div)*/
+	.mt-3 > div {
+    background-color: #1d2021!important;; /* Light gray background */
+  
+    /* Add other properties if you want to override them */
 }
 	
 	
 	
+
+
+
+
+
+/* Apply custom colors to the tokens */
+
+
+/*span.token{
+    color: #b8bb26!important;
 	
 	
+	}
+	
+	*/
+
 	
 	
-	
-	
-	
-	
-    
-    
+	/* Style for keywords */
+
+
+
+	code span.token {
+    color: #fb4934  !important; /* Replace #yourColor with the hex color you want */
 }
 
+	/*Hash in the C like language */
+	span.token.directive-hash{
+		color:#fabd2f !important;
+		
+	}
+
+	/*Include directives in C based langauges */
+	span.token.macro.directive{
+		color:#b8bb26 !important;
+	}
+	
+	
+	
+	
+	
+	
+	
+	}
+    
+	
