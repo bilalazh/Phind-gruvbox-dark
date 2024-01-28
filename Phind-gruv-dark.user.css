@@ -135,8 +135,9 @@
 
 
 
-
 	
+	
+
 /*Front Page styles  	 */
 /*This is for the front page  	 */
 	
@@ -165,3 +166,35 @@ color:var(--chatgpt4-button-name-button-trybutton-hover);
 
 }
 	
+	
+	/*Nav top rogt search and chat buttons */
+	.nav-bar{
+		color: var(--search-chat-buttons-navbar);
+	}
+	/*hover for search and chat buttons*/
+	.nav-bar{
+		color: var(--search-chat-buttons-navbar-hover);
+	}
+	
+	
+	
+	
+	/*input area major background part */
+[data-theme=dark] .search-bar-input-group {
+    border-radius: 15px;
+	background: white  !important;
+
+    background: var(--major-bg-input-box-background);
+    border: 3px solid #8ec07c;
+}
+	
+	/*cahtgpt4 and other buttons bg and ccolor */
+	[data-theme=dark] .masthead-textbox {
+    background-color: var(--chatgpt4background-other-and-search-icon);
+	
+    color:var(--cahtgpt4-search-icon-color) ; 
+}
+	/*hover for the chatgpt and other icons*/
+		[data-theme=dark] .masthead-textbox {
+    color:var(--cahtgpt4-search-icon-color) ; 
+}
