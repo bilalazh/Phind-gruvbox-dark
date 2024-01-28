@@ -139,6 +139,7 @@
 	
 
 
+
 /*Front Page styles  	 */
 /*This is for the front page  	 */
 	
@@ -186,7 +187,7 @@ color:#8ec07c !important;
  .search-bar-input-group {
     border-radius: 15px;
 	background: #427b58  !important;
-    border: 3px solid #f2e5bc !important;;
+    border: 3px solid #f2e5bc !important;
 }
 	
 
@@ -262,6 +263,73 @@ color:#8ec07c !important;
 	/*User name and add on the first paage*/
 	[data-theme=dark] .text-dark {
     color: #928374!important;
+}
+	
+	
+	
+	/*Menu Chatgpt4 */
+	/*chatgpt4 sub menu*/
+	
+	
+	
+	.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #427b58;
+    border: 0 solid rgba(27,22,66,.15);
+    border-radius: 1rem;
+		   border: 4px solid #8ec07c !important;
+  
+    color: #fbe3da !important;
+    display: none;
+    font-size: 1rem;
+    
+}
+	/*Phind and chatgpt 4 */
+.mx-1 {
+	color:#f2e5bc !important;
+	font-weight: 600 !important ; 
+    margin-left: .25rem!important;
+    margin-right: .25rem!important;
+}
+	
+	
+/*form input butto when chekd */	
+	.form-check-input:checked {
+    background-color: #2c533b;
+  
+}
+	
+	
+	
+	/*hamburger menu */
+	/*front page menu styles*/
+	
+	
+	.dropdown-item, .dropdown-link {
+    background-color: transparent;
+    border: 0;
+    clear: both;
+    color: #1d2021;
+    display: block;
+    font-weight:500;
+    padding: 0;
+    text-align: inherit;
+    white-space: nowrap;
+    width: 100%;
+}
+	
+	
+	/*body background*/
+	body{
+		background-color:#282828 !important;
+	}
+	
+	
+	/*Transatent color for the name and other baackgorund stuff */
+	[data-theme=dark] .bg-white {
+    background: rgba(125, 41, 41, 0)!important;;
+    color: #f9f5d7!important;
+		
 }
 	
 	
