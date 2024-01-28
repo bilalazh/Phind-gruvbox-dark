@@ -138,6 +138,7 @@
 	
 	
 
+
 /*Front Page styles  	 */
 /*This is for the front page  	 */
 	
@@ -145,56 +146,122 @@
 	
 
 	/*front page menu and clock icon */
-	[data-theme=dark] .text-black {
-    color: var(--front-page-clock-menu-icon);
+	 .text-black {
+    color: #689d6a !important;
 }
-	/*hover for the front apge menny and clock icon*/
-		[data-theme=dark] .text-black:hover{
-    color: var(--front-page-clock-menu-icon-hover);
-}
+	
 	
 	/*Button on top name button and model button and other buttons*/
 	.btn:not([class*=btn-outline]) {
     border-color: transparent!important;
-color:var(--chatgpt4-button-name-button-trybutton);
+color:#fb4934 !important;
 
 }
 /*Button of name and other buttons on front page hover */
-	.btn:not([class*=btn-outline]) {
+	.btn:not([class*=btn-outline]):hover{
     border-color: transparent!important;
-color:var(--chatgpt4-button-name-button-trybutton-hover);
+color:#8ec07c !important;
 
 }
 	
 	
 	/*Nav top rogt search and chat buttons */
 	.nav-bar{
-		color: var(--search-chat-buttons-navbar);
-	}
-	/*hover for search and chat buttons*/
-	.nav-bar{
-		color: var(--search-chat-buttons-navbar-hover);
+		color:#899c40 !important;
 	}
 	
+	
+	
+	/*backfround for the main input area bigger */
+	[data-theme=dark] .darkmode-light {
+    background-color: #427b58!important;
+    color: #bdc1c6!important;
+		
+		
+}
 	
 	
 	
 	/*input area major background part */
-[data-theme=dark] .search-bar-input-group {
+ .search-bar-input-group {
     border-radius: 15px;
-	background: white  !important;
+	background: #427b58  !important;
+    border: 3px solid #f2e5bc !important;;
+}
+	
 
-    background: var(--major-bg-input-box-background);
-    border: 3px solid #8ec07c;
+	
+
+	
+	/*Text box when you enter the text */
+	 .darkmode-light {
+    background-color: #427b58!important;
+ 	
 }
 	
-	/*cahtgpt4 and other buttons bg and ccolor */
+	/*Button chatgpt4 and other colors*/
+	.btn:not([class*=btn-outline]) {
+    border-color: transparent!important;
+    
+		color:#ebdbb2 !important ; 
+		
+}
+	
+	/*Ask anything . waht are you stuck on text*/
+	.searchbox-textarea::placeholder{
+		color:#d5c4a1 !important;
+		
+	}
+	
+
+	
+	
+	/*Padding for button icons*/
+	.btn-group-sm>.btn, .btn-sm {
+    border-radius: .5rem  .5rem .5rem .5rem;
+    font-size: .875rem;
+    padding: 1.2em 1rem ;
+}
+	
+	
+	
+	/*background of the input */
 	[data-theme=dark] .masthead-textbox {
-    background-color: var(--chatgpt4background-other-and-search-icon);
+    background-color: #2c533b!important;
+    color: #ebdbb2!important;
+		border-radius: 32px !important ; 
+}
 	
-    color:var(--cahtgpt4-search-icon-color) ; 
-}
+	
+	
+	
+	
+	
 	/*hover for the chatgpt and other icons*/
-		[data-theme=dark] .masthead-textbox {
-    color:var(--cahtgpt4-search-icon-color) ; 
+		 .masthead-textbox:hover{
+    color:#fdf6e3 !important ; 
 }
+	
+	/*try phnd pro button colors */
+	[data-theme=dark] .btn-light {
+    background-color: #d5c4a1 !important;
+    color: #2c533b !important;
+		 
+		border-radius: 23px !important ; 
+}
+	
+	
+	
+	/*input Text and background*/
+	.form-control.darkmode-light{
+		color:#fbe3da !important;
+		background-color:#427b58 !important;
+		font-size: 1.1rem !important;
+	}
+	
+	/*User name and add on the first paage*/
+	[data-theme=dark] .text-dark {
+    color: #928374!important;
+}
+	
+	
