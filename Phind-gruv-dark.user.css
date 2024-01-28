@@ -130,15 +130,8 @@
 
    
 }
+    
  
-
-
-
-
-	
-	
-
-
 
 /*Front Page styles  	 */
 /*This is for the front page  	 */
@@ -333,3 +326,125 @@ color:#8ec07c !important;
 }
 	
 	
+	/*CHat page */
+	/*front page chat page */
+	
+	/*chat Page top chat input bar */
+	[data-theme=dark] .search-bar-no-gradient {
+    border-radius: 12px;
+    background:#2c533b !important;
+		background-color:#2c533b !important;
+	 border: 3px solid #d5c4a1;
+}
+	/*padding for input buttons and other stuff */
+	.p-2 {
+    padding: .7rem!important;
+		background-color:transparent !important;
+}
+
+	/*serach and up drawer button */
+	.btn.p-2.rounded-0{
+		background-color:#427b58 !important;
+		color:black !important;
+		border-radius: 8px !important;
+	
+}
+	/*users button */
+	.bg-secondary {
+    background-color: #2c533b!important;
+}
+	
+	
+	/*Bagge bottns small badges*/
+	.bg-primary {
+    background-color: #79740e!important;
+}
+	[data-theme=dark] .bg-primary-soft {
+    background-color: #2c533b!important;
+    color: #ebdbb2!important;
+}
+	
+	
+	
+	/*badge color ful in text button */
+	.badge {
+    border-radius: 1rem;
+    color: #f2e5bc;
+    display: inline-block;
+    font-size: .83em;
+    font-weight: 400;
+    line-height: 1;
+    padding: .3em .6em;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+	
+	/*Upper hald and lower gradient fix using this*/
+	[class*=col] {
+color:#d5c4a1 !important;
+		background-color:#282828 !important;
+    position: relative;
+}
+	
+	/*background dark fixed for all the htm pages */
+	html {
+background-color:#282828 !important;
+    overflow-x: hidden;
+}
+    
+    
+	/*P text inside the chat widow */
+	[data-theme=dark] .text-black {
+    color: #ebdbb2!important;
+}
+	
+	/*Text button icon here */
+	[data-theme=dark] .btn-primary {
+    background-color: #79740e!important;
+    color: #f2e5bc!important;
+		font-size: 0.9rem !important;
+		font-weight: 500 !important;
+}
+	
+	/*Discsmiss secondary button */
+	button.btn.btn-secondary.btn-sm.mx-2{
+		color:#f9f5d7 !important;
+		background-color:#2c533b !important;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Code styles */
+	div.mt-3{
+		color:black !important;
+		background-color:#16181a !important;
+	}
+	
+
+	
+#custom-bg {
+  background-color: rgb(211, 211, 211) !important;
+	background-color:black !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    
+    
+}
